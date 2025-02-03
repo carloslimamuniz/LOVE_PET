@@ -124,10 +124,11 @@
   border: 0;
 }
 
-.introduction-content .btns button p {
+.introduction-content .btns button a {
   text-align: center;
   font-weight: 800;
   font-size: 1.7rem;
+  text-decoration: none;
 }
 
 .introduction-content .btns button:hover {
@@ -139,7 +140,7 @@
   max-width: 200px;
 }
 
-.introduction-content .btns button:nth-child(1) p {
+.introduction-content .btns button:nth-child(1) a {
   color: var(--primary-500);
 }
 
@@ -148,7 +149,7 @@
   max-width: 300px;
 }
 
-.introduction-content .btns button:nth-child(2) p {
+.introduction-content .btns button:nth-child(2) a {
   color: var(--gray-300);
 }
 
@@ -206,7 +207,7 @@
   margin-top: auto;
 }
 
-.about-content button p {
+.about-content button a {
   font-weight: 800;
   color: var(--primary-500);
   text-align: center;
@@ -273,7 +274,7 @@
   margin-top: auto;
 }
 
-.help-content button p {
+.help-content button a {
   font-weight: 800;
   text-align: center;
   color: var(--gray-300);
