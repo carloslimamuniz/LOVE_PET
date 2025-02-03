@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LOVE PETS</title>
+    <link rel="stylesheet" href="../style/home.css" />
+    <link rel="stylesheet" href="../style/global.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <div>
+        <span>L</span>
+        <span>O</span>
+        <span>V</span>
+        <span>E</span>
+        <span>P</span>
+        <span>E</span>
+        <span>T</span>
+      </div>
+
+      <ul>
+        <li>
+          <a href="./index.html">Inicio</a>
+        </li>
+        <li>
+          <a href="./adocao.form.html">Adotar</a>
+        </li>
+        <li>
+          <a href="./cadastro-pet.form.html">Ajudar resgatar</a>
+        </li>
+      </ul>
+    </header>
+
+    <section id="introduction">
+      <div class="introduction-content wrapper">
+        <h1>Adote ou ajude a resgatar um pet</h1>
+        <p>
+          Não pode adotar um pet no momento? Você ainda pode fazer a diferença!
+          Ajude a conectar pets que precisam de um lar com pessoas dispostas a
+          adotá-los. 🐾💙
+        </p>
+        <div class="btns">
+          <button onclick="onRedirect('adocao.form.html')">
+            <p>ADOTAR</p>
+          </button>
+          <button onclick="onRedirect('cadastro-pet.form.html')">
+            <p>Ajuda a resgatar</p>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="wrapper">
+      <img src="../assets/logo.jpg" alt="" />
+      <div class="about-content">
+        <span>LOVEPET </span>
+        <h3>Sobre nós</h3>
+        <p class="paragraph">
+          Somos uma ONG dedicada a transformar vidas por meio da adoção
+          responsável de pets. Nosso propósito é conectar animais que precisam
+          de um lar com pessoas dispostas a oferecer amor, cuidado e uma nova
+          chance. Com a ajuda de voluntários e parceiros, resgatamos, cuidamos e
+          encaminhamos animais para lares cheios de carinho. Se você deseja
+          adotar, apoiar ou conhecer mais sobre o nosso trabalho, junte-se a nós
+          nessa missão! 💙🐾
+        </p>
+        <button onclick="onRedirect('adocao.form.html')">
+          <p>Quero adotar</p>
+        </button>
+      </div>
+    </section>
+
+    <section id="help" 2>
+      <div class="wrapper">
+        <div class="help-content">
+          <span>LOVEPET</span>
+          <h3>Como funciona?</h3>
+          <p class="paragraph">
+            Muitas pessoas ficam de coração partido ao ver animais em situação
+            de abandono. Enquanto algumas conseguem ajudar, outras voltam para
+            casa com um sentimento de impotência. Nosso sistema permite que,
+            mesmo aqueles que não podem adotar, contribuam informando onde os
+            animais abandonados estão. Dessa forma, pessoas com condições de
+            acolhê-los podem encontrá-los e oferecer um novo lar.
+          </p>
+          <button onclick="onRedirect('cadastro-pet.form.html')">
+            <p>Ajuda a resgatar</p>
+          </button>
+        </div>
+        <img src="../assets/logo2.jpg" alt="" />
+      </div>
+    </section>
+    <script src="../script/script.js"></script>
+  </body>
+</html>
